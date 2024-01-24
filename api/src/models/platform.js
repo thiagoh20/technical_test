@@ -13,7 +13,7 @@ const instance = new mongoose.Schema(
     categoryApp: {
       type: String,
      
-      enum: ["Mensajeria","Redes Sociales","Entretenimiento"],
+      enum: ["Mensajeria","RedesSociales","Entretenimiento"],
       default: "Mensajeria",
     }
   },

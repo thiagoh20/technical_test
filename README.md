@@ -52,3 +52,15 @@ Open terminal #2 (frontend)<br />
 
 # Algoritmos
 the algorithms are located in the `app/src/utils/Algoritmos.js folder.`
+
+# (backend) End Points
+URL: `http://localhost:8080/platforms`<br />
+GET:`http://localhost:8080/platforms/allPlatforms`
+POST:`http://localhost:8080/platforms/newPlatform`<br />
+### Body Post
+>{
+  "objectApp":"Netflix",
+  "categoryApp":"Mensajeria"
+}
+
+DELETE:`http://localhost:8080/platforms/deletePlatform/NamePlatform`<br />
