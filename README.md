@@ -50,7 +50,5 @@ Open terminal #2 (frontend)<br />
   > cd ./app<br />
   > npm run dev<br />
 
-- Production:<br />
-  > cd ./app<br />
-  > npm build<br />
-  > npm start
+# Algoritmos
+the algorithms are located in the `app/src/utils/Algoritmos.js folder.`
